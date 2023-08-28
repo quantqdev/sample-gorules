@@ -1,0 +1,64 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@gorules/zen-engine':
+    specifier: ^0.6.0
+    version: 0.6.0
+
+packages:
+
+  /@gorules/zen-engine-darwin-arm64@0.6.0:
+    resolution: {integrity: sha512-qmTm5Pkl4R1f79gSfUJeJJnF2kqNOhWhRwvjpjBsZ/BgjghonAZsqe2bdnKfhhpb0cTiu+gyszwgh/alh1FNkQ==}
+    engines: {node: '>= 14'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@gorules/zen-engine-darwin-x64@0.6.0:
+    resolution: {integrity: sha512-SJSZxRkIfQ3lUEl+mkIGMb9HLzoAH0XI4J2zDKpT//jcjvIEVyK9FdXBkvjl8mFxAly42b7ypPJaJvvRXR6tnQ==}
+    engines: {node: '>= 14'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@gorules/zen-engine-linux-arm64-gnu@0.6.0:
+    resolution: {integrity: sha512-rKaAPKVIRaTTfGOopNT4RGwchIJLPBIO/42Ctf95ph1IbjlocwkUaMJ/1lfuRSJ/Rr6GsImPEl13DRlIBWddDw==}
+    engines: {node: '>= 14'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@gorules/zen-engine-linux-x64-gnu@0.6.0:
+    resolution: {integrity: sha512-99voi4RxvYxv4DU8fsQppPvojaEvVwRoYNIbm4ZAO9DERDQfC3u/GGyiZcxdmrbsLAyJqNIoonJoYqDGmfs7sA==}
+    engines: {node: '>= 14'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@gorules/zen-engine-win32-x64-msvc@0.6.0:
+    resolution: {integrity: sha512-4Ou5L9+/5kD5cDc4dy5gssNmIcZ59TGplWGARasRXp54c+o3fpNCeTaolW6zsbsmsygmJTVvt9ewBNK1XsDBtQ==}
+    engines: {node: '>= 14'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@gorules/zen-engine@0.6.0:
+    resolution: {integrity: sha512-1x/JM48Yb5+G//OrFvzgHzcZa1IjeyRl9g8FV6yGPJzHI7GaUqDuaDs7kBYWeIfw2rGJ5BnBUKR+baZr1P10jg==}
+    engines: {node: '>= 14'}
+    optionalDependencies:
+      '@gorules/zen-engine-darwin-arm64': 0.6.0
+      '@gorules/zen-engine-darwin-x64': 0.6.0
+      '@gorules/zen-engine-linux-arm64-gnu': 0.6.0
+      '@gorules/zen-engine-linux-x64-gnu': 0.6.0
+      '@gorules/zen-engine-win32-x64-msvc': 0.6.0
+    dev: false

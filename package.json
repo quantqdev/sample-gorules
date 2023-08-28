@@ -1,0 +1,6 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@gorules/zen-engine": "^0.6.0"
+	}
+}
